@@ -1,7 +1,7 @@
-export default function ListTodo() {
+export default function ListTodo({ title }) {
 	return (
 		<div className="w-full">
-			<p className="text-center text-2xl mb-4"> To do</p>
+			<p className="text-center text-2xl mb-4"> {title}</p>
 			<div className="flex gap-3 border px-4 py-2 border-gray-500 rounded items-center group">
 				<div>
 					<div className="size-5 border-2 border-white rounded-full group-hover:bg-white"></div>
